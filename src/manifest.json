@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "背景色修改插件",
+    "version": "1.0",
+    "description": "允许用户将网页背景色更改为指定颜色。",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

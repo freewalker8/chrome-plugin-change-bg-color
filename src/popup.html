@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>背景色设置</title>
+</head>
+<body>
+  <div class="background-setting">
+    <label for="colorPicker">背景</label>
+    <input type="color" id="colorPicker">
+    <button id="applyColor">应用</button>
+  </div>
+  <!-- <div class="warper">
+    <label for="colorPicker">背景</label>
+    <input type="color" id="colorPicker" value="#999999">
+    <button id="applyColor">应用</button>
+  </div> -->
+  <script src="popup.js"></script>
+</body>
+</html>
+<style>
+   /* 整体样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.background-setting {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.background-setting label {
+  flex-basis: 40px;
+}
+
+.background-setting input[type="color"] {
+  margin-right: 10px;
+}
+
+.background-setting button {
+  background-color: #007BFF;
+  padding: 4px 6px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.background-setting button:hover {
+  background-color: #0056b3;
+}
+</style>

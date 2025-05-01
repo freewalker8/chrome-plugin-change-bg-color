@@ -1,0 +1,15 @@
+{
+  "name": "chrome-plugin-change-bg-color",
+  "version": "1.0.0",
+  "description": "change document's background color",
+  "scripts": {
+    "pack": "crx pack ./src"
+  },
+  "keywords": [
+    "change",
+    "background",
+    "color"
+  ],
+  "author": "lei.liang",
+  "license": "MIT"
+}
