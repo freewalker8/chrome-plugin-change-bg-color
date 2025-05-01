@@ -1,4 +1,3 @@
-console.log('background.js 已加载');
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     chrome.tabs.query({ active: true }, (tabs) => {
       console.log("Scanning tab id:", tabs[0].id);
